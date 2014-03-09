@@ -1,0 +1,141 @@
+@import url(http://fonts.googleapis.com/css?family=Gentium+Basic);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+
+*, *:before, *:after {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body {
+	color: #333;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	margin: 0;
+}
+
+a, a:visited, a:hover {
+	color: inherit;
+	text-decoration: underline;
+}
+
+h1, h2 {
+	font-weight: normal;
+}
+
+.container {
+	margin: 0 auto;
+	width: 100%;
+	text-align: center;
+}
+
+.column {
+	float: left;
+	margin-left: 0;
+	text-align: center;
+	padding: 20px;
+	height: 100%;
+	padding-bottom: 20040px;
+	margin-bottom: -20000px;
+	overflow: hidden;
+	display: table-cell;
+}
+
+.column.right section {
+	margin-bottom: 0;
+	padding-bottom: 0;
+}
+
+.column.full {
+	width: 100%;
+}
+
+.column.half {
+	width: 50%;
+}
+
+.column.title {
+	background-color: #333;
+	background-image: url(pattern.png);
+	color: white;
+}
+
+.column.title h1#title {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 3em;
+	text-transform: uppercase;
+	color: rgba(255,255,255,.9);
+	padding: 20px;
+	display: inline-block;
+	margin: 0;
+	float: none;
+	display: block;
+}
+
+.column.title h2#title {
+	font-size: 20px;
+}
+
+.column.title span {
+	border: 3px solid white;
+	padding: 10px;
+	margin: 10px;
+}
+
+.column.title img#logo {
+	position: relative;
+	float: none;
+	display: inline-block;
+	clear: both;
+	padding: 20px;
+}
+
+.column.left {
+	background-color: #4577D4;
+	color: rgba(0,0,0,.9);
+}
+
+.column.right {
+	background-color: #F93E58;
+	color: rgba(0,0,0,.9);
+}
+
+.row {
+	overflow: hidden;
+	clear: both;
+	margin-bottom: 10px;
+}
+
+.row:nth-child(1) {
+	margin-bottom: 0;
+	padding-bottom: 15%;
+}
+
+.row:last-child {
+	margin-bottom: 100px;
+}
+
+.row {
+	line-height: 2em !important;
+}
+
+#box-container {
+	margin-top: 2em;
+}
+
+article > h1 {
+	border-bottom: 3px solid;
+	display: inline-block;
+	padding-bottom: 3px;
+}
+
+@media screen and (max-width: 640px) {
+	.column.full, .column.half {
+		margin-bottom: -20000;
+		width: 100%;
+	}
+
+	.column.title span {
+		display: block;
+	}
+}
