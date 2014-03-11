@@ -189,15 +189,16 @@ h6 {
 
 .button {
 	background: #e54448;
-	border-radius: 2px;
+	border-radius: 5px;
 	border: none;
 	box-shadow: 0 5px #d81e23;
 	color: white;
 	cursor: pointer;
 	outline: none;
 	position: relative;
-	padding: 1px;
-
+	padding: 10px;
+	display: inline-block;
+	width: 160px;
 
 }
 
