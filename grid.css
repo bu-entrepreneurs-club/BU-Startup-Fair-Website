@@ -1,5 +1,5 @@
 #companies .company-wrapper-outer {
-	background-color: white;
+	background-color: transparent;
 
 	width: 247px;
 	height: 150px;
@@ -38,24 +38,15 @@
 	width: 100%;
 	max-width: 1000px;
 }
-.left, .right,.center {
-	margin-left: auto;
-	margin-right: auto;
-	display: inline-block;
-	height: 165px;
-	width: 49%;
+.column-left{ 
+	float: left;
+	padding-left: 30px; 
 }
-.center {
-	margin-left: 50px;
+.column-right{ 
+	float: right;
+	padding-right: 30px;
 }
-
-.center h5 {
-	padding-top: 10px;
-}
-.left h5 {
-	padding-top: 10px;
-}
-
+.column-center{ display: inline-block; }
 
 .content {
 	background: rgba(0,0,0,0.8);
