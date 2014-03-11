@@ -40,11 +40,9 @@
 }
 .column-left{ 
 	float: left;
-	padding-left: 30px; 
 }
 .column-right{ 
 	float: right;
-	padding-right: 30px;
 }
 .column-center{ 
 	display: inline-block;
