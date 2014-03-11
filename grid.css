@@ -46,8 +46,13 @@
 	float: right;
 	padding-right: 30px;
 }
-.column-center{ display: inline-block; }
+.column-center{ 
+	display: inline-block;
+}
 
+.parent {
+    font-size: 0;
+}
 .content {
 	background: rgba(0,0,0,0.8);
 	border-radius: 3px;
