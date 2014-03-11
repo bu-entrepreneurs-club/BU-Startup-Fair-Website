@@ -40,9 +40,11 @@
 }
 .column-left{ 
 	float: left;
+	width:330px;
 }
 .column-right{ 
 	float: right;
+	width:330px;
 }
 .column-center{ 
 	display: inline-block;
