@@ -39,14 +39,13 @@
 	max-width: 1000px;
 }
 .column-left{ 
-	display: inline;
+
 	float: left;
-	width:330px;
+
 }
 .column-right{ 
-	display: inline;
 	float: right;
-	width:330px;
+
 }
 .column-center{ 
 	display: inline-block;
