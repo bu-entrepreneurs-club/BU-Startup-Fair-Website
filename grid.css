@@ -80,61 +80,6 @@
 	margin: 0 0 0.4em 0;
 }
 
-.btn {
-  display: block;
-  padding: 6px 20px;
-  margin-bottom: 10px;
-  font-size: 20px;
-  font-weight: normal;
-  line-height: 1.428571429;
-  text-align: center;
-  white-space: nowrap;
-  vertical-align: middle;
-  cursor: pointer;
-  border: 1px solid transparent;
-  border-radius: 4px;
-  -webkit-user-select: none;
-     -moz-user-select: none;
-      -ms-user-select: none;
-       -o-user-select: none;
-          user-select: none;
-}
-
-.btn-outline {
-  color: #fff;
-  background-color: black;
-  border-color: #fff;
-  text-shadow: 2px 3px 1px rgba(0,0,0,0.4);
-  font-weight: 700;
-}
-
-.btn-outline:hover,
-.btn-outline:focus,
-.btn-outline:active,
-.btn-outline.active {
-  color: #e54448;
-  text-shadow: none;
-  background-color: black;
-  border-color: #fff;
-  outline-width: 0;
-}
-
-.btn-default {
-  color: #333333;
-  background-color: #ffffff;
-  border-color: #cccccc;
-}
-
-.btn-default:hover,
-.btn-default:focus,
-.btn-default:active,
-.btn-default.active,
-.open .dropdown-toggle.btn-default {
-  color:  #e54448;
-  background-color: #ebebeb;
-  border-color: #adadad;
-}
-
 /*Avoid overflow on very small screens*/
 
 @media only screen and (max-width: 685px) {
