@@ -49,6 +49,7 @@
 }
 .column-center{ 
 	display: inline-block;
+	overflow: hidden;
 }
 
 .parent {
