@@ -39,17 +39,18 @@
 	max-width: 1000px;
 }
 .column-left{ 
-
+	width: 33%;
 	float: left;
 
 }
 .column-right{ 
+	width: 33%;
 	float: right;
 
 }
 .column-center{ 
-	display: inline-block;
-	overflow: hidden;
+	width: 33%;
+	float: left;
 }
 
 .parent {
@@ -62,6 +63,7 @@
 }
 #info .content {
 	padding: 20px 0;
+	overflow: hidden;
 }
 #companies .content {
 	text-align:center;
