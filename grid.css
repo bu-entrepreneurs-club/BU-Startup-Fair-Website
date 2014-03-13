@@ -1,18 +1,19 @@
 #companies .company-wrapper-outer {
-	background-color: transparent;
+	background-color: rgba(0, 0, 0, .5);
 
 	width: 247px;
-	height: 150px;
+	height: 190px;
 	display: inline-block;
 	margin:10px;
-	/*border: 5px solid black;*/
+	/*border: 5px solid #e54448;*/
 	padding: 0 15px;
 }
 #companies .company-wrapper-inner {
 	display: table-cell;
 	vertical-align: middle;
-	height: 150px;
+	height: 180px;
 	width: 247px;
+
 	
 }
 #companies a {
@@ -20,21 +21,21 @@
 }
 #companies img {
 
-	width:100%;
+	width:90%;
 
 
 }
 /* Panel Styling and Positioning */
 
 #info> .content {
-	height:165px;
+	height:175px;
 	text-align: center;
 }
 .panel {
 	color: #eee;
 	margin-right: auto;
 	margin-left: auto;
-	padding: 20px;
+	padding: 10px;
 	width: 100%;
 	max-width: 1000px;
 }
@@ -78,6 +79,7 @@
 
 .companies-title {
 	margin: 0 0 0.4em 0;
+	padding-bottom: 20px;
 }
 
 /*Avoid overflow on very small screens*/
