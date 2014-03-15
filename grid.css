@@ -9,6 +9,9 @@
 	padding: 0 15px;
 	border: none;
 }
+#companies .company-wrapper-outer:last-child{
+	background-color: rgba(255,255,255, .2);
+}
 #companies .company-wrapper-inner {
 	display: table-cell;
 	vertical-align: middle;
