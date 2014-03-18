@@ -252,6 +252,6 @@ html { font-size: 100%; }
   	display: none;
   }
   .mobile-header {
-  	display: visible !important;
+  	display: block !important;
   }
  }
