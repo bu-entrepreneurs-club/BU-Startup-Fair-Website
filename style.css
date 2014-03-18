@@ -133,6 +133,7 @@ h6 {
 	margin-top: 10px;
 	margin: 0 auto;
 	display: block;
+	max-width: 100%;
 }
 
 .header.row #info {
@@ -142,7 +143,7 @@ h6 {
 	width: 50%;
 }
 
-.header.row #info .content {
+.header.row .content {
 	padding: 20px;
 }
 
@@ -155,6 +156,9 @@ h6 {
 
 .mobile.header {
 	display: none !important;
+	text-align: center;
+	min-height: 0;
+	width: 100%;
 }
 
 .clearfix:before,
@@ -230,7 +234,12 @@ html { font-size: 100%; }
   }
 }
 
+/* Mobile */
+
 @media (max-width: 40rem) {
+	* {
+		margin: none;
+	}
   .small.icon.column {
   	display: none;
   }
@@ -239,7 +248,8 @@ html { font-size: 100%; }
   	border: none;
   }
   body {
-		background: none;
+	background: none;
+	
 	}
 .small.icon.column {
   	display: none;
@@ -251,7 +261,7 @@ html { font-size: 100%; }
   .header.row {
   	display: none;
   }
-  .mobile-header {
-  	display: block;
+  .mobile.header {
+  	display: block !important;
   }
  }
