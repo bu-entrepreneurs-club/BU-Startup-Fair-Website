@@ -32,19 +32,17 @@ html { font-size: 100%; }
   	width: 100% !important;
   	border: none !important;
   }
-  	body {
+  body {
 		background: none !important;
 	}
-	.small.icon.column {
+.small.icon.column {
   	display: none;
   }
   .big.column, .red-bg.column {
   	width: 100% !important;
   	border: none !important;
   }
-  .header.row {
-  	display: none;
-  }
+
  }
 
 /*
