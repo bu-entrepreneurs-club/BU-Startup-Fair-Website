@@ -116,6 +116,7 @@ h6 {
 
 .mobile-header {
 	display: none;
+	text-align: center;
 }
 
 .header.row {
@@ -235,23 +236,23 @@ html { font-size: 100%; }
   	display: none;
   }
   .big.column, .red-bg.column {
-  	width: 100% !important;
-  	border: none !important;
+  	width: 100%;
+  	border: none;
   }
   body {
-		background: none !important;
+		background: none;
 	}
 .small.icon.column {
   	display: none;
   }
   .big.column, .red-bg.column {
-  	width: 100% !important;
-  	border: none !important;
+  	width: 100%;
+  	border: none;
   }
   .header.row {
   	display: none;
   }
   .mobile-header {
-  	display: block !important;
+  	display: block;
   }
  }
