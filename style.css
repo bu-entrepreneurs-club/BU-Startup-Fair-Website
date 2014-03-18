@@ -179,7 +179,7 @@ h6 {
 ///// MISC /////
 */
 
-.button {
+.button{
 	background: #e54448;
 	border-radius: 5px;
 	border: none;
@@ -190,13 +190,25 @@ h6 {
 	position: relative;
 	padding: 10px;
 	display: inline-block;
+	width: 160px;
 	max-width: 160px;
 
 }
 
-.button:hover {
+.button:hover{
 	top: 2px;
-	box-shadow: 0 3px #d81e23;
+	box-shadow: 3px #d81e23;
+}
+
+#fb-logo {
+	position: relative;
+	display: inline-block;
+	border-radius: 5px;
+	margin-top: 1em;
+}
+
+.header.row div#fb-logo img{
+	max-height: 3em
 }
 
 span.rainbow {
