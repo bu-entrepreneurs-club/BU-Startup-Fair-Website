@@ -158,7 +158,7 @@ h6 {
 	display: none !important;
 	text-align: center;
 	min-height: 0;
-	width: 100%;
+	width: 100vw;
 }
 
 .clearfix:before,
@@ -249,7 +249,7 @@ html { font-size: 100%; }
   }
   body {
 	background: none;
-	
+
 	}
 .small.icon.column {
   	display: none;
