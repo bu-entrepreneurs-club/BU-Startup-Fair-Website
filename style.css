@@ -171,10 +171,10 @@ h6 {
 }
 
 .header.row #info {
-	max-width: 30%;
 	margin: 0 auto;
 	display: block;
 	text-align: center;
+	width: 50%;
 }
 
 .header.row #info .content {
