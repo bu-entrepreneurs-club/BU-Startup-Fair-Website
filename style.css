@@ -114,11 +114,6 @@ h6 {
 	max-width: 100%;
 }
 
-.mobile-header {
-	display: none;
-	text-align: center;
-}
-
 .header.row {
 	color: white;
 	height: 100%;
@@ -156,6 +151,10 @@ h6 {
 	top: 0;
 	right: 0;
 	width: 100%;
+}
+
+.mobile.header {
+	display: none !important;
 }
 
 .clearfix:before,
