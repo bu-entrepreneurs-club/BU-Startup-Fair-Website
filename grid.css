@@ -32,10 +32,6 @@
 }
 /* Panel Styling and Positioning */
 
-#info> .content {
-	height:175px;
-	text-align: center;
-}
 .panel {
 	color: #eee;
 	margin-right: auto;
@@ -67,10 +63,8 @@
 	border-radius: 3px;
 	margin:20px;
 }
-#info .content {
-	padding: 20px 0;
-	overflow: hidden;
-}
+
+
 #companies .content {
 	text-align:center;
 	padding:20px;
@@ -109,9 +103,7 @@
 	.right {
 		width: 100%;
 	}
-	#info > .content {
-		height: 335px;
-	}
+
 	#companies > .content {
 		padding-left: 0;
 		padding-right: 0;

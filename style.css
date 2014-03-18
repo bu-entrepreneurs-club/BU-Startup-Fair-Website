@@ -90,7 +90,8 @@ h5 {
 	display: block;
 	font: 300 20px/1.3 "Helvetica Neue", Helvetica,Arial,sans-serif;
 	color: white;
-	text-align: center;
+	margin: 0;
+	margin-bottom: .5em;
 
 }
 
@@ -152,14 +153,32 @@ h6 {
 	color: white;
 	height: 100%;
 	width: 100%;
-	height: 100vh;
+	min-height: 100vh;
 	top: 0;
 	right: 0;
 	background-color: transparent;
+	position: relative;
 }
 
 .header.row a, .header.row a:hover, .header.row a:visited {
 	color: white;
+}
+
+.header.row img#logo {
+	margin-top: 10px;
+	margin: 0 auto;
+	display: block;
+}
+
+.header.row #info {
+	max-width: 30%;
+	margin: 0 auto;
+	display: block;
+	text-align: center;
+}
+
+.header.row #info .content {
+	padding: 20px;
 }
 
 .header.full.column {
@@ -198,7 +217,7 @@ h6 {
 	position: relative;
 	padding: 10px;
 	display: inline-block;
-	width: 160px;
+	max-width: 160px;
 
 }
 
