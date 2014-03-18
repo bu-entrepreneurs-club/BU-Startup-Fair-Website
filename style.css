@@ -3,6 +3,22 @@
 ///// MEDIA STUFF /////
 */
 
+@media only screen and (max-device-width: 480px) {
+	body {
+		background: none !important;
+	}
+	.small.icon.column {
+  	display: none;
+  }
+  .big.column, .red-bg.column {
+  	width: 100% !important;
+  	border: none !important;
+  }
+  .header.row {
+  	height: 100%;
+  }
+}
+
 /* Small screens (default) */
 html { font-size: 100%; }
  
