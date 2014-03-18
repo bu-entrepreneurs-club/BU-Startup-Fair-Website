@@ -42,7 +42,12 @@ html { font-size: 100%; }
   	width: 100% !important;
   	border: none !important;
   }
-
+  .header.row {
+  	display: none;
+  }
+  .mobile-header {
+  	display: visible;
+  }
  }
 
 /*
@@ -159,6 +164,10 @@ h6 {
 
 .column img {
 	max-width: 100%;
+}
+
+.mobile-header {
+	display: none;
 }
 
 .header.row {
