@@ -3,26 +3,6 @@
 ///// MEDIA STUFF /////
 */
 
-@media only screen and (max-device-width: 480px) {
-	body {
-		background: none !important;
-	}
-	.small.icon.column {
-  	display: none;
-  }
-  .big.column, .red-bg.column {
-  	width: 100% !important;
-  	border: none !important;
-  }
-  .header.row {
-  	height: 100% !important;
-  	overflow: hidden !important;
-  }
-  * {
-  	margin: 0;
-  }
-}
-
 /* Small screens (default) */
 html { font-size: 100%; }
  
@@ -51,6 +31,19 @@ html { font-size: 100%; }
   .big.column, .red-bg.column {
   	width: 100% !important;
   	border: none !important;
+  }
+  	body {
+		background: none !important;
+	}
+	.small.icon.column {
+  	display: none;
+  }
+  .big.column, .red-bg.column {
+  	width: 100% !important;
+  	border: none !important;
+  }
+  .header.row {
+  	display: none;
   }
  }
 
