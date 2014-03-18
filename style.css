@@ -52,6 +52,7 @@ body {
 	margin: 0;
 	padding: 0;
 	height: 100%;
+	width: 100%;
 	max-width: 1600px;
 	background-image: url(boston-smaller.jpg);
 	background-attachment: fixed;
