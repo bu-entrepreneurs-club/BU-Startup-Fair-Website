@@ -200,14 +200,14 @@ h6 {
 	box-shadow: 3px #d81e23;
 }
 
-#fb-logo {
+.social-icon {
 	position: relative;
 	display: inline-block;
 	border-radius: 5px;
 	margin-top: 1em;
 }
 
-.header.row div#fb-logo img{
+.header.row div.social-icon img{
 	max-height: 3em
 }
 
