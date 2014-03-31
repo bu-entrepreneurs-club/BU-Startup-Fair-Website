@@ -110,6 +110,7 @@ h6 {
 
 #outside-container {
 	background-color: white;
+	width: 100vw;
 }
 
 #inside-container {
@@ -152,7 +153,7 @@ h6 {
 .header.row {
 	color: white;
 	height: 100%;
-	width: 100%;
+	width: 100vh;
 	min-height: 100vh;
 	top: 0;
 	right: 0;
