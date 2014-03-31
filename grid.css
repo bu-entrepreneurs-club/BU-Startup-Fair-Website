@@ -36,8 +36,8 @@
 	margin-right: auto;
 	margin-left: auto;
 	padding: 10px;
-	width: 100%;
-	max-width: 1000px;
+	width: 100vw;
+	max-width: 1600px;
 }
 .column-left{ 
 	width: 33%;
