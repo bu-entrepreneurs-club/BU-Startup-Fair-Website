@@ -26,7 +26,6 @@
 
 	width:90%;
 
-
 }
 /* Panel Styling and Positioning */
 
@@ -35,8 +34,8 @@
 	margin-right: auto;
 	margin-left: auto;
 	padding: 10px;
-	width: 100%;
-	max-width: 1000px;
+	width: 100vw;
+	max-width: 1600px; /* size of picture bg */
 }
 .column-left{ 
 	width: 33%;
