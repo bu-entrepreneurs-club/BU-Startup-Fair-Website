@@ -32,11 +32,8 @@
 
 .panel {
 	color: #eee;
-	margin-right: auto;
-	margin-left: auto;
 	padding: 10px;
-	width: 100%;
-	max-width: 1000px;
+	width: 100vw;
 }
 .column-left{ 
 	width: 33%;
@@ -60,6 +57,9 @@
 	background: rgba(0,0,0,0.8);
 	border-radius: 3px;
 	margin:20px;
+	max-width: 1600px; /* size of picture bg */
+	margin-left: auto;
+	margin-right: auto;
 }
 
 #companies .content {
