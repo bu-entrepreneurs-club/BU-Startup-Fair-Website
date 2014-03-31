@@ -1,39 +1,3 @@
-
-/*
-///// MEDIA STUFF /////
-*/
-
-/* Small screens (default) */
-html { font-size: 100%; }
- 
-/* Medium screens (640px) */
-@media (min-width: 40rem) { 
-	html { font-size: 112%; }
-}
- 
-/* Large screens (1024px) */
-@media (min-width: 64rem) { 
-	html { font-size: 120%; }
-}
-
-@media (min-width: 40rem) {
-  .column {
-    float: left;
-    padding-left: 1rem;
-    padding-right: 1rem;
-  }
-}
-
-@media (max-width: 40rem) {
-  .small.icon.column {
-  	display: none;
-  }
-  .big.column, .red-bg.column {
-  	width: 100% !important;
-  	border: none !important;
-  }
- }
-
 /*
 ///// GENERAL /////
 */
@@ -52,6 +16,7 @@ body {
 	margin: 0;
 	padding: 0;
 	height: 100%;
+	width: 100%;
 	max-width: 1600px;
 	background-image: url(boston-smaller.jpg);
 	background-attachment: fixed;
@@ -169,16 +134,17 @@ h6 {
 	margin-top: 10px;
 	margin: 0 auto;
 	display: block;
+	max-width: 100%;
 }
 
 .header.row #info {
-	max-width: 30%;
 	margin: 0 auto;
 	display: block;
 	text-align: center;
+	width: 50%;
 }
 
-.header.row #info .content {
+.header.row .content {
 	padding: 20px;
 }
 
@@ -187,6 +153,13 @@ h6 {
 	top: 0;
 	right: 0;
 	width: 100%;
+}
+
+.mobile.header {
+	display: none !important;
+	text-align: center;
+	min-height: 0;
+	width: 100vw;
 }
 
 .clearfix:before,
@@ -207,7 +180,7 @@ h6 {
 ///// MISC /////
 */
 
-.button {
+.button{
 	background: #e54448;
 	border-radius: 5px;
 	border: none;
@@ -218,13 +191,25 @@ h6 {
 	position: relative;
 	padding: 10px;
 	display: inline-block;
+	width: 160px;
 	max-width: 160px;
 
 }
 
-.button:hover {
+.button:hover{
 	top: 2px;
-	box-shadow: 0 3px #d81e23;
+	box-shadow: 3px #d81e23;
+}
+
+.social-icon {
+	position: relative;
+	display: inline-block;
+	border-radius: 5px;
+	margin-top: 1em;
+}
+
+.header.row div.social-icon img{
+	max-height: 3em
 }
 
 span.rainbow {
@@ -235,3 +220,61 @@ span.rainbow {
   background-clip: text;
 
 }
+
+
+/*
+///// MEDIA STUFF /////
+*/
+
+/* Small screens (default) */
+html { font-size: 100%; }
+ 
+/* Medium screens (640px) */
+@media (min-width: 40rem) { 
+	html { font-size: 112%; }
+}
+ 
+/* Large screens (1024px) */
+@media (min-width: 64rem) { 
+	html { font-size: 120%; }
+}
+
+@media (min-width: 40rem) {
+  .column {
+    float: left;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
+
+/* Mobile */
+
+@media (max-width: 40rem) {
+	* {
+		margin: none;
+	}
+  .small.icon.column {
+  	display: none;
+  }
+  .big.column, .red-bg.column {
+  	width: 100%;
+  	border: none;
+  }
+  body {
+	background: none;
+
+	}
+.small.icon.column {
+  	display: none;
+  }
+  .big.column, .red-bg.column {
+  	width: 100%;
+  	border: none;
+  }
+  .header.row {
+  	display: none;
+  }
+  .mobile.header {
+  	display: block !important;
+  }
+ }
