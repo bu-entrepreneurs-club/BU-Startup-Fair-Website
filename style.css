@@ -206,6 +206,8 @@ h6 {
 	display: inline-block;
 	border-radius: 5px;
 	margin-top: 1em;
+	padding-bottom: 20px;
+	padding-top: 20px;
 }
 
 .header.row div.social-icon img{
