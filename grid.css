@@ -1,13 +1,12 @@
 #companies .company-wrapper-outer {
-	background-color: rgba(0,0,0, .6);
-
+	background-color: rgba(0,0,0, .2);
 	width: 247px;
 	height: 190px;
 	display: inline-block;
 	margin:10px;
-	/*border: 5px solid #e54448;*/
 	padding: 0 15px;
 	border: none;
+	text-align: center;
 }
 #companies .company-wrapper-outer:last-child{
 	background-color: rgba(255,255,255, .2);
@@ -16,12 +15,11 @@
 	display: table-cell;
 	vertical-align: middle;
 	height: 180px;
-	width: 247px;
+	width: 247px !important;
 	border: none;
-
-	
 }
-#companies a {
+
+#companies a, #companies>div {
 	height: 100%;
 }
 #companies img {
@@ -33,11 +31,8 @@
 
 .panel {
 	color: #eee;
-	margin-right: auto;
-	margin-left: auto;
 	padding: 10px;
 	width: 100vw;
-	max-width: 1600px; /* size of picture bg */
 }
 .column-left{ 
 	width: 33%;
@@ -61,8 +56,10 @@
 	background: rgba(0,0,0,0.8);
 	border-radius: 3px;
 	margin:20px;
+	max-width: 1600px; /* size of picture bg */
+	margin-left: auto;
+	margin-right: auto;
 }
-
 
 #companies .content {
 	text-align:center;
