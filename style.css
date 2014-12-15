@@ -185,6 +185,12 @@ h6 {
   *zoom: 1;
 }
 
+#slider1_container {
+    width: 50%;
+    margin: 0 auto;
+    margin-bottom: 100px;
+}
+
 /*
 ///// MISC /////
 */
