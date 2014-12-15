@@ -8,9 +8,10 @@
 	border: none;
 	text-align: center;
 }
-/*#companies .company-wrapper-outer:last-child{
+
+#companies #new .company-wrapper-outer:last-child{
 	background-color: rgba(255,255,255, .2);
-}*/
+}
 #companies .company-wrapper-inner {
 	display: table-cell;
 	vertical-align: middle;

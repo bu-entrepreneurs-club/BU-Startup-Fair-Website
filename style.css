@@ -191,6 +191,12 @@ h6 {
     margin-bottom: 100px;
 }
 
+.t-block {
+	width: 50%;
+	background-color: #e54448;
+    margin: 0 auto;
+}
+
 /*
 ///// MISC /////
 */
