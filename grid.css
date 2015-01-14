@@ -9,7 +9,7 @@
 	text-align: center;
 }
 
-#companies #new .company-wrapper-outer:last-child{
+#companies .company-wrapper-outer:nth-last-child(2){
 	background-color: rgba(255,255,255, .2);
 }
 #companies .company-wrapper-inner {
@@ -24,9 +24,11 @@
 	height: 100%;
 }
 #companies img {
+	width:95%;
+}
 
-	width:90%;
-
+#companies img.smaller{
+	width:45%;
 }
 
 /* Panel Styling and Positioning */
@@ -77,6 +79,7 @@
 .companies-title {
 	margin: 0 0 0.4em 0;
 	padding-bottom: 20px;
+	padding-top: 20px;
 }
 
 /*Avoid overflow on very small screens*/
