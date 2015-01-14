@@ -167,14 +167,9 @@ h6 {
 	width: 100%;
 }
 
-.home_button {
-	margin-left: 20px;
-  margin-top: 10px;
-  position: absolute;
-}
-
-.home_button img {
-	width: 40%;
+#companies img#home{
+	width: 20%;
+  text-align: left;
 }
 
 .mobile.header {

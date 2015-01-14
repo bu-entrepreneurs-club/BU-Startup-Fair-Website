@@ -1,4 +1,4 @@
-#companies .company-wrapper-outer {
+#companies .company-wrapper-outer,#companies #ignore {
 	background-color: rgba(0,0,0, .5);
 	width: 247px;
 	height: 190px;
@@ -12,6 +12,7 @@
 #companies .company-wrapper-outer:nth-last-child(2){
 	background-color: rgba(255,255,255, .2);
 }
+
 #companies .company-wrapper-inner {
 	display: table-cell;
 	vertical-align: middle;
