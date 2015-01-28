@@ -19,9 +19,10 @@ body {
 	width: 100%;
 	max-width: 1600px;
 	background-image: url(../../Site_Images/boston-smaller.jpg);
-	background-size: 100%;
 	background-attachment: fixed;
 	background: url(../../Site_Images/boston-smaller.jpg) no-repeat center center fixed;
+	background-size: 100%;
+
 }
 
 a, a:hover, a:visited {
