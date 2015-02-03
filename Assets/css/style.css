@@ -21,6 +21,8 @@ body {
 	background-image: url(../../Site_Images/boston-smaller.jpg);
 	background-attachment: fixed;
 	background: url(../../Site_Images/boston-smaller.jpg) no-repeat center center fixed;
+	background-size: 100%;
+
 }
 
 a, a:hover, a:visited {
