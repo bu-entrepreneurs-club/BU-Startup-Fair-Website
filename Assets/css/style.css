@@ -7,26 +7,22 @@
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
-
-html, body {
-	box-sizing: border-box;
-	height: 100%;
-}
-
-html {
-	background: url(../../Site_Images/boston-smaller.jpg) no-repeat center center fixed;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
-}
-
+		
 body {
-	background-color: transparent;
+	font: 400 16px/24px "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color: #4c5058;
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	width: 100%;
+	max-width: 1600px;
+	background-image: url(../../Site_Images/boston-smaller.jpg);
+	background-attachment: fixed;
+	background: url(../../Site_Images/boston-smaller.jpg) no-repeat center center fixed;
+	background-size: 100%;
 
-	div.ember-view {
-		height: 100%;
-	}
 }
 
 a, a:hover, a:visited {
