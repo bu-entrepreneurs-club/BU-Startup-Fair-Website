@@ -32,9 +32,30 @@ body {
 	background-color: rgba(0, 0, 0, 0.9);
 }
 
-.listings a {
-	margin-right: auto;
-	margin-left: auto;
-	width: 60%;
-	height: 60%;
+img {
+	/*width: 300px;*/
+	width: 40%;
+}
+
+hr {
+	color: white;
+	background-color: white;
+}
+
+ul li {
+	color: #ccc;
+}
+
+.grid .row {
+	text-align: center;
+}
+
+.listing-button-home {
+	margin-bottom: 30px;
+}
+
+.company-img {
+	text-align: center;
+	padding-top: auto;
+	margin-bottom: 20px;
 }
