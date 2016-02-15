@@ -21,6 +21,11 @@
 	border: none;
 }
 
+#companies .company-wrapper-inner>img {
+	max-height: 180px;
+	max-width: 247px:
+}
+
 #companies a, #companies>div {
 	height: 100%;
 }
