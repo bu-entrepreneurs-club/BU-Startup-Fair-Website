@@ -1,5 +1,12 @@
+#companies {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap
+}
+
 #companies .company-wrapper-outer,#companies #ignore {
-	background-color: rgba(0,0,0, .5);
+	background-color: rgba(256,256,256, .5);
 	width: 247px;
 	height: 190px;
 	display: inline-block;
@@ -44,17 +51,17 @@
 	padding: 10px;
 	width: 100vw;
 }
-.column-left{ 
+.column-left{
 	width: 33%;
 	float: left;
 
 }
-.column-right{ 
+.column-right{
 	width: 33%;
 	float: right;
 
 }
-.column-center{ 
+.column-center{
 	width: 33%;
 	float: left;
 }
@@ -86,6 +93,7 @@
 	margin: 0 0 0.4em 0;
 	padding-bottom: 20px;
 	padding-top: 20px;
+	width: 100%
 }
 
 /*Avoid overflow on very small screens*/

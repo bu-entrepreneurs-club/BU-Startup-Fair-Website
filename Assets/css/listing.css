@@ -8,11 +8,12 @@ html {
 	color: #4c5058;
 	text-rendering: optimizeLegibility;
 	-webkit-font-smoothing: antialiased;
-	background: url(../../Site_Images/boston-smaller.jpg) no-repeat center center fixed;
+	background: url(../../Site_Images/boston-smaller.jpg) no-repeat fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
+	back
 }
 
 body {

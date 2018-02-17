@@ -3,13 +3,13 @@
 */
 
 *, *:before, *:after { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
-		
+
 body {
 	-webkit-font-smoothing: antialiased;
 	background: url(../../Site_Images/boston-smaller.jpg) no-repeat center center fixed;
 	background-attachment: fixed;
 	background-image: url(../../Site_Images/boston-smaller.jpg);
-	background-size: 100%;
+	background-size: 150vmax;
 	color: #4c5058;
 	font: 400 16px/24px "Helvetica Neue", Helvetica, Arial, sans-serif;
 	height: 100%;
